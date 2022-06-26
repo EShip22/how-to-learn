@@ -278,6 +278,11 @@ a {
   font-size: 18px;
 }
 
+.footer__links_style {
+  color: white;
+  text-decoration: none;
+}
+
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
