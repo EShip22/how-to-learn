@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <!--<link rel="stylesheet" href="./styles/normalize.css">-->
-    <!--<link rel="stylesheet" href="./styles/style.css">-->
     <link rel="stylesheet" href="./pages/index.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,7 +57,6 @@
               <h3 class="cards__title">Два вида внимания</h3>
               <p class="cards__description">
                 Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
-                
               </p>
             </li>
             <li class="cards__item">
@@ -184,19 +181,19 @@
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
             <h2 class="khan__title">Весь мир - школа</h2>
-            <p class="khan__quote">
+            <blockquote class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
               Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
               повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-            </p>
-            <p class="khan__quote-author">
+            </blockquote>
+            <h3 class="khan__quote-author">
               Джордж Лукас
-            </p>
+            </h3>
             <p class="khan__quote-author-subline">
               Кинорежиссер, продюсер
             </p>
             <div class="khan__book-container">
-              <img src="./images/khan-book.jpg" class="khan__book-pic" alt="Весь мир - школа"/>
+              <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Весь мир - школа"/>
               <a href="#" class="khan__buy-link">Купить книгу&rarr;</a>
             </div>
           </div>
@@ -271,30 +268,28 @@
         <section class="resources">
           <h2 class="section-title">Полезные ресурсы</h2>
           <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-          <nav>
-            <ul class="resources__logo-zone">
-              <li class="resources__link">
-                <a href="#">
-                  <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"/>
-                </a>
-              </li>
-              <li class="resources__link">
-                <a href="#" >
-                  <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н1"/>
-                </a>
-              </li>
-              <li class="resources__link">
-                <a href="#">
-                  <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"/>
-                </a>
-              </li>
-              <li class="resources__link">
-                <a href="#">
-                  <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"/>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <ul class="resources__logo-zone">
+            <li>
+              <a class="resources__link" href="#">
+                <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"/>
+              </a>
+            </li>
+            <li>
+              <a class="resources__link" href="#" >
+                <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Н1"/>
+              </a>
+            </li>
+            <li>
+              <a class="resources__link" href="#">
+                <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"/>
+              </a>
+            </li>
+            <li>
+              <a class="resources__link" href="#">
+                <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"/>
+              </a>
+            </li>
+          </ul>
         </section>
       </main>
       <footer class="footer">

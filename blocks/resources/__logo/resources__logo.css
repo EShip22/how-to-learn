@@ -1,4 +1,5 @@
 .resources__logo {
-	min-width: 100%;
-    min-height: 100%;
+	width: 270px;
+	height: 38px;
+	object-fit: contain;
 }
